@@ -1,0 +1,12 @@
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
