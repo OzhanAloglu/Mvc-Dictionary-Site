@@ -10,3 +10,9 @@ C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreC
 C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
 C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\FluentValidation.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\FluentValidation.xml
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\C#\Çalışmalar\MvcProjeKampi\EntityLayer\bin\Debug\System.Threading.Tasks.Extensions.xml

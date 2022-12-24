@@ -15,3 +15,9 @@ C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\FluentValidation.dll
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\FluentValidation.xml
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
