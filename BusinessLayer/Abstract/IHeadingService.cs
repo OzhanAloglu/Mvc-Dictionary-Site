@@ -20,7 +20,7 @@ namespace BusinessLayer.Abstract
         void HeadingUpdate(Heading heading);
 
 
-
+        List<Heading> GetListByWriter(int id);
 
     }
 }

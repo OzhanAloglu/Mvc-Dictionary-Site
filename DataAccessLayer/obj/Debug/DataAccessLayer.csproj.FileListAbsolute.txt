@@ -35,3 +35,5 @@ C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migr
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_aboutstatu.resources
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_skilss.resources
 C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_role.resources
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Web.Razor.dll
+C:\C#\Çalışmalar\MvcProjeKampi\DataAccessLayer\bin\Debug\System.Web.Razor.xml

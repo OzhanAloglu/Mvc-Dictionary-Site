@@ -97,3 +97,7 @@ C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\System.Threading.Tasks.Exten
 C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\FluentValidation.xml
 C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\System.Threading.Tasks.Extensions.xml
+C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.dll
+C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.dll
+C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.xml
+C:\C#\Çalışmalar\MvcProjeKampi\MvcProjeKampi\bin\PagedList.Mvc.xml

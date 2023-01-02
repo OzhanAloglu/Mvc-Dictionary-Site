@@ -1,4 +1,7 @@
-﻿using DataAccessLayer.Concrete;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using EntityLayer;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,8 +12,12 @@ using System.Web.Security;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
+        WriterLoginManager wm = new WriterLoginManager(new EfWriterDal());
+
+
         [HttpGet]
         public ActionResult Index()
         {
@@ -21,7 +28,8 @@ namespace MvcProjeKampi.Controllers
         public ActionResult Index(Admin p)
         {
             Context c = new Context();
-            var adminuserinfo = c.Admins.FirstOrDefault(x=>x.AdminUserName==p.AdminUserName&&x.AdminPassword==p.AdminPassword);
+            string encPassword = Hash.Encrypt(p.AdminPassword);
+            var adminuserinfo = c.Admins.FirstOrDefault(x=>x.AdminUserName==p.AdminUserName&&x.AdminPassword== encPassword);
 
             if (adminuserinfo!=null)
             {
@@ -38,6 +46,58 @@ namespace MvcProjeKampi.Controllers
             }
 
 
+            
+        }
+        [HttpGet]
+        public ActionResult WriterLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult WriterLogin(Writer p)
+        {
+            //Context c = new Context();
+
+
+            //var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            var writeruserinfo = wm.GetWriter(p.WriterMail, p.WriterPassword);
+
+
+
+            if (writeruserinfo != null)
+            {
+                FormsAuthentication.SetAuthCookie(writeruserinfo.WriterName, false);
+                Session["WriterMail"] = writeruserinfo.WriterMail;
+
+                return RedirectToAction("MyContent", "WriterPanelContent");
+
+            }
+
+            else
+            {
+                return RedirectToAction("WriterLogin");
+            }
+            
+        }
+
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Headings", "Default");
+        }
+
+        [HttpGet]
+        public ActionResult AddWriters()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddWriters(Writer p)
+        {
+            wm.WriterAdd(p);
             return View();
         }
     }
